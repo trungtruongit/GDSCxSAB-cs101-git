@@ -2,12 +2,13 @@
 
 #### If you don't have git on your machine, [install it](https://help.github.com/articles/set-up-git/).
 
-## Clone the repository
+## Fork the repository
 
 <img align="right" width="300" 
-src="https://firstcontributions.github.io/assets/Readme/clone.png" 
+src="./public/assets/images/fork.png" 
 alt="clone this repository" />
 
+Firstly fork the repository to your repositorie.
 Now clone the forked repository to your machine. Go to your GitHub 
 account, open the forked repository, click on the code button and then 
 click the _copy to clipboard_ icon.
@@ -29,27 +30,6 @@ alt="copy URL to clipboard" />
 > [!IMPORTANT]
 > You should choose SSH for ease of your work. If you are using HTTPS, you should provide your GitHub username and Github token every time you push or pull from the repository.
 
-
-## Create a branch
-
-Change to the repository directory on your computer (if you are not 
-already there):
-
-```bash
-cd GDSCxSAB-cs101-git
-```
-
-Now create a branch using the `git checkout -b` command:
-
-```bash
-git checkout -b feature/your-student-id
-```
-
-For example:
-
-```bash
-git checkout -b feature/21280007
-```
 
 ## How to edit the `public/attendees.json` file
 
