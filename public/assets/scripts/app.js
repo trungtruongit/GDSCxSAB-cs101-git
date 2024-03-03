@@ -45,7 +45,7 @@ const appendAttendee = (attendee) => {
   }
 };
 
-fetch('https://raw.githubusercontent.com/GDSC-HCMUS/GDSCxSAB-cs101-git/gh-pages/attendees.json')
+fetch('./attendees.json')
   .then((response) => response.json())
   .then((attendees) => attendees.slice(1)) // remove the first sample
   .then((attendees) => attendees.forEach((attendee) => appendAttendee(attendee)))
