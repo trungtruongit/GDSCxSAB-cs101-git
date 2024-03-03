@@ -7,7 +7,7 @@ const attendeeLink = (url, type) =>
     type
   )}" class="attendee__external-link" 
     target="_blank" rel="noreferrer noopener">
-    <img src="/assets/svg-icons/${type}.svg" class="attendee__external-link-image" />
+    <img src="./assets/svg-icons/${type}.svg" class="attendee__external-link-image" />
   </a>`;
 
 const appendAttendee = (attendee) => {
